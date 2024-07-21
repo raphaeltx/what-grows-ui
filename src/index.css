@@ -21,8 +21,8 @@ body {
 
 
 #header img {
-  width: 5rem;
-  height: 5rem;
+  width: 24rem;
+  height: 15rem;
   object-fit: contain;
   background-color: transparent;
 }
@@ -34,23 +34,20 @@ body {
 
 #user-input {
   padding: 1rem;
-  max-width: 30rem;
-  margin: 2rem auto;
-  border-radius: 4px;
-  background: linear-gradient(180deg, #307e6c, #2b996d);
+  max-width: 40rem;
+  background-color: transparent;
 }
 
 .input-group {
   display: flex;
-  justify-content: space-evenly;
-  gap: 1.5rem;
+  justify-content: center;
 }
 
 #user-input label {
   display: block;
   margin-bottom: 0.25rem;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -87,4 +84,65 @@ body {
 
 .center {
   text-align: center;
+}
+
+.coordenate-button {
+  background-color: transparent;
+  color: #76c0ae;
+  border: 1px solid #76c0ae;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  width: 400px;
+}
+
+.coordenate-button:hover {
+  border: 1px solid #aef1e1;
+  color: #aef1e1;
+  box-shadow: 0 0 10px #aef1e1;
+}
+
+#vegetable-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#vegetables-content {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 2px;
+}
+
+.vegetables-list {
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+}
+
+.vegetables-list li {
+  color: #ddd;
+  text-align: left;
+  padding: 15px;
+  background-color: rgb(190, 190, 190, 0.1);
+  border-radius: 5px;
+}
+  
+.vegetables-list li::before {
+  content: "+";
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+  color: #00fa00;
+}
+
+.vegetables-list li:hover {
+  background-color: rgba(100,100,100,0.1);
+  border-radius: 5px;
 }

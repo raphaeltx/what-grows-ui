@@ -1,5 +1,4 @@
-# What Grows UI 🍊 🍋 🍠 🍅 🌽
-
+# What Grows UI
 Get suggestions of what vegetables grow and the recommended soil humidity given your location!
 
 ## How to run locally

@@ -1,7 +1,8 @@
-export default function Header({ title }: any) {
+export default function Header({ title, imageSource }: any) {
   return (
-    <header>
+    <header id="header" className="center">
       <h1>{title}</h1>
+      <img src={imageSource}/>
     </header>
   )
 }
