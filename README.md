@@ -22,7 +22,7 @@ You can also with docker compose. Make sure you have docker and docker compose i
 Run the following command in the root directory:
 
 ```
-    docker-compose up --build
+  docker-compose up --build
 ```
 
 ### You can access in your browser http://localhost:3000
